@@ -5,14 +5,14 @@ import javax.lang.model.util.ElementScanner14;
 class jb{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter temperature in celcius : ");
+        System.out.println("Enter temperature in celcius value: ");
         int temperature = scan.nextInt();
         if(temperature >= 20 && temperature<=30)
         System.out.println("it's a nice day");
         else if (temperature>30)
-        System.out.println(" ohh!!!!!!!!!!!!....it's a hot day");
+        System.out.println(" ohh!!....it's a hot day");
         else
-        System.out.println("it's Cold");
+        System.out.println("it is Cold");
         /*  *****************************************************
 Using Ternary operator: 
 */
